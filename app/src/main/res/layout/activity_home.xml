@@ -38,9 +38,10 @@
 
     <TextView
         android:id="@+id/tv_text"
-        android:text="Alguma coisa deve ser escrita"
+        android:text="@string/string_value_tv_text"
         android:layout_width="match_parent"
         android:padding="8dp"
+        android:textSize="16sp"
         android:layout_centerInParent="true"
         android:gravity="center"
         android:layout_height="wrap_content"/>
@@ -57,6 +58,9 @@
         android:id="@+id/btn_save_message"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        />
+        android:textSize="14sp"
+        android:text="@string/string_value_btn_save_message"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true" />
 
 </RelativeLayout>

@@ -1,3 +1,5 @@
 <resources>
     <string name="app_name">Motivation App</string>
+    <string name="string_value_btn_save_message">salvar texto</string>
+    <string name="string_value_tv_text">Alguma coisa deve ser escrita</string>
 </resources>
