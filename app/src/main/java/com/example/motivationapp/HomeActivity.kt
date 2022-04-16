@@ -14,7 +14,7 @@ class HomeActivity : AppCompatActivity(), View.OnClickListener {
         binding = ActivityHomeBinding.inflate(layoutInflater)
         setContentView(binding.root)
 
-        binding.btnSaveMessage.setOnClickListener {this}
+        binding.btnSaveMessage.setOnClickListener(this)
     }
 
     override fun onClick(view: View) {
