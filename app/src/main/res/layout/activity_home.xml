@@ -1,40 +1,58 @@
 <?xml version="1.0" encoding="utf-8"?>
 
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="horizontal"
-    android:padding="8dp"
+    android:background="@color/white"
     tools:context=".HomeActivity">
 
     <LinearLayout
         android:id="@+id/ll_toolbar"
         android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:orientation="horizontal">
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:padding="8dp"
+        android:background="@color/gray">
 
         <ImageView
             android:id="@+id/iv_all"
             android:layout_width="0dp"
             android:layout_height="40dp"
             android:layout_weight="1"
-            android:src="@drawable/ic_all" />
+            android:src="@drawable/ic_all"
+            app:tint="@color/black" />
 
         <ImageView
             android:id="@+id/iv_emoji"
             android:layout_width="0dp"
             android:layout_height="40dp"
             android:layout_weight="1"
-            android:src="@drawable/ic_emoji" />
+            android:src="@drawable/ic_emoji"
+            app:tint="@color/dark_gray" />
 
         <ImageView
             android:id="@+id/iv_sunny"
             android:layout_width="0dp"
             android:layout_height="40dp"
             android:layout_weight="1"
-            android:src="@drawable/ic_sunny" />
+            android:src="@drawable/ic_sunny"
+            app:tint="@color/dark_gray" />
     </LinearLayout>
+
+    <TextView
+        android:id="@+id/tv_head"
+        android:text="@string/string_value_tv_head"
+        android:textColor="@color/black"
+        android:layout_width="wrap_content"
+        android:textSize="14sp"
+        android:padding="8dp"
+        android:layout_margin="16dp"
+        android:layout_centerHorizontal="true"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/ll_toolbar"/>
 
     <TextView
         android:id="@+id/tv_text"
@@ -42,6 +60,8 @@
         android:layout_width="match_parent"
         android:padding="8dp"
         android:textSize="16sp"
+        android:layout_margin="16dp"
+        android:textColor="@color/black"
         android:layout_centerInParent="true"
         android:gravity="center"
         android:layout_height="wrap_content"/>
@@ -58,9 +78,14 @@
         android:id="@+id/btn_save_message"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:textSize="14sp"
-        android:text="@string/string_value_btn_save_message"
         android:layout_alignParentBottom="true"
-        android:layout_centerHorizontal="true" />
+        android:layout_centerHorizontal="true"
+        android:backgroundTint="@color/black"
+        android:padding="8dp"
+        android:layout_marginBottom="16dp"
+        android:layout_marginTop="16dp"
+        android:fontFamily="@font/cabin"
+        android:text="@string/string_value_btn_save_message"
+        android:textSize="14sp" />
 
 </RelativeLayout>
