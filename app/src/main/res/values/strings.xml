@@ -3,4 +3,7 @@
     <string name="string_value_btn_save_message">salvar texto</string>
     <string name="string_value_tv_text">Alguma coisa deve ser escrita</string>
     <string name="string_value_tv_head">Oi, alguém</string>
+    <string name="cd_string_value_iv_all">Botão all</string>
+    <string name="cd_string_value_iv_emoji">Botão emoji</string>
+    <string name="cd_string_value_iv_sunny">Botão sunny</string>
 </resources>

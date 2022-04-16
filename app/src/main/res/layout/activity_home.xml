@@ -23,7 +23,8 @@
             android:layout_height="40dp"
             android:layout_weight="1"
             android:src="@drawable/ic_all"
-            app:tint="@color/black" />
+            app:tint="@color/black"
+            android:contentDescription="@string/cd_string_value_iv_all" />
 
         <ImageView
             android:id="@+id/iv_emoji"
@@ -31,7 +32,8 @@
             android:layout_height="40dp"
             android:layout_weight="1"
             android:src="@drawable/ic_emoji"
-            app:tint="@color/dark_gray" />
+            app:tint="@color/dark_gray"
+            android:contentDescription="@string/cd_string_value_iv_emoji" />
 
         <ImageView
             android:id="@+id/iv_sunny"
@@ -39,7 +41,8 @@
             android:layout_height="40dp"
             android:layout_weight="1"
             android:src="@drawable/ic_sunny"
-            app:tint="@color/dark_gray" />
+            app:tint="@color/dark_gray"
+            android:contentDescription="@string/cd_string_value_iv_sunny" />
     </LinearLayout>
 
     <TextView
