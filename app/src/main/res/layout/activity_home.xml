@@ -22,27 +22,30 @@
             android:layout_width="0dp"
             android:layout_height="40dp"
             android:layout_weight="1"
+            android:contentDescription="@string/cd_sv_iv_all"
+            android:importantForAccessibility="yes"
             android:src="@drawable/ic_all"
-            app:tint="@color/black"
-            android:contentDescription="@string/cd_string_value_iv_all" />
+            app:tint="@color/black" />
 
         <ImageView
             android:id="@+id/iv_emoji"
             android:layout_width="0dp"
             android:layout_height="40dp"
             android:layout_weight="1"
+            android:contentDescription="@string/cd_sv_iv_emoji"
+            android:importantForAccessibility="yes"
             android:src="@drawable/ic_emoji"
-            app:tint="@color/dark_gray"
-            android:contentDescription="@string/cd_string_value_iv_emoji" />
+            app:tint="@color/dark_gray" />
 
         <ImageView
             android:id="@+id/iv_sunny"
             android:layout_width="0dp"
             android:layout_height="40dp"
             android:layout_weight="1"
+            android:contentDescription="@string/cd_sv_iv_sunny"
+            android:importantForAccessibility="yes"
             android:src="@drawable/ic_sunny"
-            app:tint="@color/dark_gray"
-            android:contentDescription="@string/cd_string_value_iv_sunny" />
+            app:tint="@color/dark_gray" />
     </LinearLayout>
 
     <TextView
@@ -52,8 +55,9 @@
         android:layout_below="@id/ll_toolbar"
         android:layout_centerHorizontal="true"
         android:layout_margin="16dp"
+        android:importantForAccessibility="yes"
         android:padding="8dp"
-        android:text="@string/string_value_tv_head"
+        android:text="@string/sv_tv_head"
         android:textColor="@color/black"
         android:textSize="14sp" />
 
@@ -64,8 +68,9 @@
         android:layout_centerInParent="true"
         android:layout_margin="16dp"
         android:gravity="center"
+        android:importantForAccessibility="yes"
         android:padding="8dp"
-        android:text="@string/string_value_tv_text"
+        android:text="@string/sv_tv_text"
         android:textColor="@color/black"
         android:textSize="16sp" />
 
@@ -86,9 +91,11 @@
         android:layout_marginTop="16dp"
         android:layout_marginBottom="16dp"
         android:backgroundTint="@color/black"
+        android:contentDescription="@string/cd_sv_btn_save_message"
         android:fontFamily="@font/cabin"
+        android:importantForAccessibility="yes"
         android:padding="8dp"
-        android:text="@string/string_value_btn_save_message"
+        android:text="@string/sv_btn_save_message"
         android:textSize="14sp" />
 
 </RelativeLayout>
