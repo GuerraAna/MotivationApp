@@ -14,6 +14,7 @@ class HomeActivity : AppCompatActivity(), View.OnClickListener {
         binding = ActivityHomeBinding.inflate(layoutInflater)
         setContentView(binding.root)
 
+        supportActionBar?.hide()
         binding.btnSaveMessage.setOnClickListener(this)
     }
 

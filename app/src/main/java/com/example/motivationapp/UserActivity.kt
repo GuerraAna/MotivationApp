@@ -13,7 +13,5 @@ class UserActivity : AppCompatActivity() {
 
         binding = ActivityUserBinding.inflate(layoutInflater)
         setContentView(binding.root)
-
-        supportActionBar?.hide()
     }
 }

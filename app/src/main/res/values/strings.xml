@@ -6,5 +6,9 @@
     <string name="cd_sv_iv_all">Botão all</string>
     <string name="cd_sv_iv_emoji">Botão emoji</string>
     <string name="cd_sv_iv_sunny">Botão sunny</string>
-    <string name="cd_sv_btn_save_message">Botão salvar</string>
+    <string name="cd_sv_btn_save_message">Salvar</string>
+    <string name="sv_user_tv_head">Vamos começar?</string>
+    <string name="cd_sv_user_tv_head">Vamos começar?</string>
+    <string name="sv_btn_save">Salvar</string>
+    <string name="cd_sv_btn_save">Salvar</string>
 </resources>
