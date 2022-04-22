@@ -5,15 +5,15 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@color/white"
+    android:background="@color/motivap_white"
     android:orientation="horizontal"
-    tools:context=".HomeActivity">
+    tools:context=".activity.HomeActivity">
 
     <LinearLayout
         android:id="@+id/ll_toolbar"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:background="@color/gray"
+        android:background="@color/motivap_gray"
         android:orientation="horizontal"
         android:padding="8dp">
 
@@ -22,30 +22,30 @@
             android:layout_width="0dp"
             android:layout_height="40dp"
             android:layout_weight="1"
-            android:contentDescription="@string/cd_sv_iv_all"
+            android:contentDescription="@string/motivap_cd_sv_iv_all"
             android:importantForAccessibility="yes"
-            android:src="@drawable/ic_all"
-            app:tint="@color/black" />
+            android:src="@drawable/motivap_ic_all"
+            app:tint="@color/motivap_black" />
 
         <ImageView
             android:id="@+id/iv_emoji"
             android:layout_width="0dp"
             android:layout_height="40dp"
             android:layout_weight="1"
-            android:contentDescription="@string/cd_sv_iv_emoji"
+            android:contentDescription="@string/motivap_cd_sv_iv_emoji"
             android:importantForAccessibility="yes"
-            android:src="@drawable/ic_emoji"
-            app:tint="@color/dark_gray" />
+            android:src="@drawable/motivap_ic_emoji"
+            app:tint="@color/motivap_dark_gray" />
 
         <ImageView
             android:id="@+id/iv_sunny"
             android:layout_width="0dp"
             android:layout_height="40dp"
             android:layout_weight="1"
-            android:contentDescription="@string/cd_sv_iv_sunny"
+            android:contentDescription="@string/motivap_cd_sv_iv_sunny"
             android:importantForAccessibility="yes"
-            android:src="@drawable/ic_sunny"
-            app:tint="@color/dark_gray" />
+            android:src="@drawable/motivap_ic_sunny"
+            app:tint="@color/motivap_dark_gray" />
     </LinearLayout>
 
     <TextView
@@ -57,8 +57,8 @@
         android:layout_margin="16dp"
         android:importantForAccessibility="yes"
         android:padding="8dp"
-        android:text="@string/sv_tv_head"
-        android:textColor="@color/black"
+        android:text="@string/motivap_sv_tv_head"
+        android:textColor="@color/motivap_black"
         android:textSize="14sp" />
 
     <TextView
@@ -70,8 +70,8 @@
         android:gravity="center"
         android:importantForAccessibility="yes"
         android:padding="8dp"
-        android:text="@string/sv_tv_text"
-        android:textColor="@color/black"
+        android:text="@string/motivap_sv_tv_text"
+        android:textColor="@color/motivap_black"
         android:textSize="16sp" />
 
     <View
@@ -80,7 +80,7 @@
         android:layout_height="5dp"
         android:layout_below="@id/tv_text"
         android:layout_centerInParent="true"
-        android:background="@color/black" />
+        android:background="@color/motivap_black" />
 
     <Button
         android:id="@+id/btn_save_message"
@@ -90,12 +90,12 @@
         android:layout_centerHorizontal="true"
         android:layout_marginTop="16dp"
         android:layout_marginBottom="16dp"
-        android:backgroundTint="@color/black"
-        android:contentDescription="@string/cd_sv_btn_save_message"
-        android:fontFamily="@font/cabin"
+        android:backgroundTint="@color/motivap_black"
+        android:contentDescription="@string/motivap_cd_sv_btn_save_message"
+        android:fontFamily="@font/motivap_cabin"
         android:importantForAccessibility="yes"
         android:padding="8dp"
-        android:text="@string/sv_btn_save_message"
+        android:text="@string/motivap_sv_btn_save_message"
         android:textSize="14sp" />
 
 </RelativeLayout>

@@ -11,11 +11,11 @@
         android:layout_height="wrap_content"
         android:layout_centerHorizontal="true"
         android:layout_marginTop="8dp"
-        android:contentDescription="@string/cd_sv_user_tv_head"
+        android:contentDescription="@string/motivap_cd_sv_user_tv_head"
         android:importantForAccessibility="yes"
         android:padding="8dp"
-        android:text="@string/sv_user_tv_head"
-        android:textColor="@color/black"
+        android:text="@string/motivap_sv_user_tv_head"
+        android:textColor="@color/motivap_black"
         android:textSize="16sp" />
 
     <TextView
@@ -27,8 +27,8 @@
         android:gravity="center"
         android:importantForAccessibility="yes"
         android:padding="8dp"
-        android:text="@string/sv_tv_text"
-        android:textColor="@color/black"
+        android:text="@string/motivap_sv_tv_text"
+        android:textColor="@color/motivap_black"
         android:textSize="16sp" />
 
     <Button
@@ -39,12 +39,12 @@
         android:layout_centerHorizontal="true"
         android:layout_marginTop="16dp"
         android:layout_marginBottom="16dp"
-        android:backgroundTint="@color/black"
-        android:contentDescription="@string/cd_sv_btn_save"
-        android:fontFamily="@font/cabin"
+        android:backgroundTint="@color/motivap_black"
+        android:contentDescription="@string/motivap_cd_sv_btn_save"
+        android:fontFamily="@font/motivap_cabin"
         android:importantForAccessibility="yes"
         android:padding="8dp"
-        android:text="@string/sv_btn_save"
+        android:text="@string/motivap_sv_btn_save"
         android:textSize="14sp" />
 
 </RelativeLayout>

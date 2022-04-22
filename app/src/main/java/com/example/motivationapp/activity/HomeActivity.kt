@@ -1,17 +1,18 @@
-package com.example.motivationapp
+package com.example.motivationapp.activity
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.view.View
-import com.example.motivationapp.databinding.ActivityHomeBinding
+import com.example.motivationapp.R
+import com.example.motivationapp.databinding.MotivapActivityHomeBinding
 
 class HomeActivity : AppCompatActivity(), View.OnClickListener {
 
-    private lateinit var binding: ActivityHomeBinding
+    private lateinit var binding: MotivapActivityHomeBinding
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        binding = ActivityHomeBinding.inflate(layoutInflater)
+        binding = MotivapActivityHomeBinding.inflate(layoutInflater)
         setContentView(binding.root)
 
         supportActionBar?.hide()

@@ -3,9 +3,13 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/Users/anagu/AndroidStudioProjects/MotivationApp/app/src/main/res/drawable/ic_all.xml" value="0.1785" />
+        <entry key="..\:/Users/anagu/AndroidStudioProjects/MotivationApp/app/src/main/res/drawable/ic_emoji.xml" value="0.1" />
+        <entry key="..\:/Users/anagu/AndroidStudioProjects/MotivationApp/app/src/main/res/font/cabin.xml" value="0.20572916666666666" />
         <entry key="..\:/Users/anagu/AndroidStudioProjects/MotivationApp/app/src/main/res/layout/activity_home.xml" value="0.1" />
         <entry key="..\:/Users/anagu/AndroidStudioProjects/MotivationApp/app/src/main/res/layout/activity_main.xml" value="0.33" />
         <entry key="..\:/Users/anagu/AndroidStudioProjects/MotivationApp/app/src/main/res/layout/activity_user.xml" value="0.264945652173913" />
+        <entry key="..\:/Users/anagu/AndroidStudioProjects/MotivationApp/app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml" value="0.1785" />
       </map>
     </option>
   </component>

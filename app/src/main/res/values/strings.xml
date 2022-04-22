@@ -1,14 +1,14 @@
 <resources>
-    <string name="app_name">Motivation App</string>
-    <string name="sv_btn_save_message">salvar texto</string>
-    <string name="sv_tv_text">Alguma coisa deve ser escrita</string>
-    <string name="sv_tv_head">Oi, alguém</string>
-    <string name="cd_sv_iv_all">Botão all</string>
-    <string name="cd_sv_iv_emoji">Botão emoji</string>
-    <string name="cd_sv_iv_sunny">Botão sunny</string>
-    <string name="cd_sv_btn_save_message">Salvar</string>
-    <string name="sv_user_tv_head">Vamos começar?</string>
-    <string name="cd_sv_user_tv_head">Vamos começar?</string>
-    <string name="sv_btn_save">Salvar</string>
-    <string name="cd_sv_btn_save">Salvar</string>
+    <string name="motivap_app_name">Motivation App</string>
+    <string name="motivap_sv_btn_save_message">salvar texto</string>
+    <string name="motivap_sv_tv_text">Alguma coisa deve ser escrita</string>
+    <string name="motivap_sv_tv_head">Oi, alguém</string>
+    <string name="motivap_cd_sv_iv_all">Botão all</string>
+    <string name="motivap_cd_sv_iv_emoji">Botão emoji</string>
+    <string name="motivap_cd_sv_iv_sunny">Botão sunny</string>
+    <string name="motivap_cd_sv_btn_save_message">Botão salvar</string>
+    <string name="motivap_sv_user_tv_head">Vamos começar?</string>
+    <string name="motivap_cd_sv_user_tv_head">Vamos começar?</string>
+    <string name="motivap_sv_btn_save">Salvar</string>
+    <string name="motivap_cd_sv_btn_save">Botão Salvar</string>
 </resources>
