@@ -10,6 +10,9 @@
         android:supportsRtl="true"
         android:theme="@style/motivap_Theme.MotivationApp">
         <activity
+            android:name=".ErrorActivity"
+            android:exported="false" />
+        <activity
             android:name=".UserActivity"
             android:exported="false" />
         <activity

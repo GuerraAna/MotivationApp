@@ -1,9 +1,12 @@
 package com.example.motivationapp.activity
 
+import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.view.View
+import com.example.motivationapp.ErrorActivity
 import com.example.motivationapp.R
+import com.example.motivationapp.UserActivity
 import com.example.motivationapp.databinding.MotivapActivityHomeBinding
 
 class HomeActivity : AppCompatActivity(), View.OnClickListener {
@@ -21,8 +24,32 @@ class HomeActivity : AppCompatActivity(), View.OnClickListener {
 
     override fun onClick(view: View) {
         if (view.id == R.id.btn_save_message) {
-            val intent = ""
+            handleSave()
         }
+    }
+
+    private fun handleSave() {
+        val name = binding.tvText.text.toString()
+        if (name != EMPTY_STRING) {
+            handleSaveSuccess()
+        } else {
+            handleSaveError()
+        }
+    }
+
+    private fun handleSaveSuccess() {
+        val intent = Intent(this, UserActivity::class.java)
+        startActivity(intent)
+    }
+
+    private fun handleSaveError() {
+        val errorIntent = Intent(this, ErrorActivity::class.java)
+        startActivity(errorIntent)
+        finish()
+    }
+
+    companion object {
+        const val EMPTY_STRING = ""
     }
 
 }
