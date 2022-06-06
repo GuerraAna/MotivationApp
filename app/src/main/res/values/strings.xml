@@ -10,5 +10,6 @@
     <string name="motivap_sv_user_tv_head">Vamos começar?</string>
     <string name="motivap_cd_sv_user_tv_head">Vamos começar?</string>
     <string name="motivap_sv_btn_save">Salvar</string>
+    <string name="motivap_sv_btn_back">Voltar</string>
     <string name="motivap_cd_sv_btn_save">Botão Salvar</string>
 </resources>

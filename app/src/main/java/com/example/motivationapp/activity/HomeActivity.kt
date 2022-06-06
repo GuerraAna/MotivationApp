@@ -38,8 +38,8 @@ class HomeActivity : AppCompatActivity(), View.OnClickListener {
     }
 
     private fun handleSaveSuccess() {
-        val intent = Intent(this, UserActivity::class.java)
-        startActivity(intent)
+        val successIntent = Intent(this, UserActivity::class.java)
+        startActivity(successIntent)
     }
 
     private fun handleSaveError() {

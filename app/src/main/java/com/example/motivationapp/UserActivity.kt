@@ -22,16 +22,24 @@ class UserActivity : AppCompatActivity(), View.OnClickListener {
     }
 
     override fun onClick(view: View) {
-        if (view.id == R.id.btn_save_message) {
+        if(view.id == R.id.btn_save_message) {
             handleSave()
+        } else if(view.id == R.id.btn_back) {
+            goToBack()
         }
+    }
+
+    private fun goToBack() {
+        startActivity(Intent(this, HomeActivity::class.java))
+        finish()
     }
 
     private fun handleSave() {
         val name = binding.tvText.text.toString()
 
         if (name != EMPTY_STRING){
-            Intent(this, HomeActivity::class.java)
+            startActivity(Intent(this, HomeActivity::class.java))
+            finish()
         } else {
             Intent(this, ErrorActivity::class.java)
         }

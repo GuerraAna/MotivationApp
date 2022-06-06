@@ -36,18 +36,36 @@
 
     <Button
         android:id="@+id/btn_save"
-        android:layout_width="wrap_content"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_alignParentBottom="true"
         android:layout_centerHorizontal="true"
-        android:layout_marginTop="16dp"
-        android:layout_marginBottom="16dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginBottom="80dp"
         android:backgroundTint="@color/motivap_black"
         android:contentDescription="@string/motivap_cd_sv_btn_save"
         android:fontFamily="@font/motivap_cabin"
         android:importantForAccessibility="yes"
         android:padding="8dp"
         android:text="@string/motivap_sv_btn_save"
+        android:textSize="14sp" />
+
+    <Button
+        android:id="@+id/btn_back"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginTop="16dp"
+        android:layout_alignStart="@id/btn_save"
+        android:layout_marginEnd="16dp"
+        android:layout_marginBottom="16dp"
+        android:backgroundTint="@color/motivap_black"
+        android:contentDescription="@string/motivap_cd_sv_btn_save"
+        android:fontFamily="@font/motivap_cabin"
+        android:importantForAccessibility="yes"
+        android:padding="8dp"
+        android:text="@string/motivap_sv_btn_back"
         android:textSize="14sp" />
 
 </RelativeLayout>
