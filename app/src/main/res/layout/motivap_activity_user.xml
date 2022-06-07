@@ -10,29 +10,29 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_centerHorizontal="true"
-        android:layout_marginTop="8dp"
+        android:layout_marginTop="@dimen/motivap_8dp"
         android:contentDescription="@string/motivap_cd_sv_user_tv_head"
         android:importantForAccessibility="yes"
-        android:padding="8dp"
+        android:padding="@dimen/motivap_8dp"
         android:text="@string/motivap_sv_user_tv_head"
         android:textColor="@color/motivap_black"
-        android:textSize="16sp" />
+        android:textSize="@dimen/motivap_16sp" />
 
     <TextView
         android:id="@+id/tv_text"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_centerInParent="true"
-        android:layout_marginStart="16dp"
-        android:layout_marginTop="16dp"
-        android:layout_marginEnd="16dp"
-        android:layout_marginBottom="16dp"
+        android:layout_marginStart="@dimen/motivap_16dp"
+        android:layout_marginTop="@dimen/motivap_16dp"
+        android:layout_marginEnd="@dimen/motivap_16dp"
+        android:layout_marginBottom="@dimen/motivap_16dp"
         android:gravity="center"
         android:importantForAccessibility="yes"
-        android:padding="8dp"
+        android:padding="@dimen/motivap_8dp"
         android:text="@string/motivap_sv_tv_text"
         android:textColor="@color/motivap_black"
-        android:textSize="16sp" />
+        android:textSize="@dimen/motivap_16sp" />
 
     <Button
         android:id="@+id/btn_save"
@@ -40,32 +40,32 @@
         android:layout_height="wrap_content"
         android:layout_alignParentBottom="true"
         android:layout_centerHorizontal="true"
-        android:layout_marginEnd="16dp"
-        android:layout_marginStart="16dp"
-        android:layout_marginBottom="80dp"
+        android:layout_marginEnd="@dimen/motivap_16dp"
+        android:layout_marginStart="@dimen/motivap_16dp"
+        android:layout_marginBottom="@dimen/motivap_80dp"
         android:backgroundTint="@color/motivap_black"
         android:contentDescription="@string/motivap_cd_sv_btn_save"
         android:fontFamily="@font/motivap_cabin"
         android:importantForAccessibility="yes"
-        android:padding="8dp"
+        android:padding="@dimen/motivap_8dp"
         android:text="@string/motivap_sv_btn_save"
-        android:textSize="14sp" />
+        android:textSize="@dimen/motivap_14sp" />
 
     <Button
         android:id="@+id/btn_back"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_alignParentBottom="true"
-        android:layout_marginTop="16dp"
+        android:layout_marginTop="@dimen/motivap_16dp"
         android:layout_alignStart="@id/btn_save"
-        android:layout_marginEnd="16dp"
-        android:layout_marginBottom="16dp"
+        android:layout_marginEnd="@dimen/motivap_16dp"
+        android:layout_marginBottom="@dimen/motivap_16dp"
         android:backgroundTint="@color/motivap_black"
         android:contentDescription="@string/motivap_cd_sv_btn_save"
         android:fontFamily="@font/motivap_cabin"
         android:importantForAccessibility="yes"
-        android:padding="8dp"
+        android:padding="@dimen/motivap_8dp"
         android:text="@string/motivap_sv_btn_back"
-        android:textSize="14sp" />
+        android:textSize="@dimen/motivap_14sp" />
 
 </RelativeLayout>
